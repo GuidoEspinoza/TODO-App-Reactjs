@@ -25,6 +25,9 @@ Ideal para quienes desean una herramienta ligera para organizar sus actividades 
 3. **Eliminar Tareas**:
    - Haz clic en el ícono de eliminación (🗑️) para borrar una tarea de la lista.
 
+4. **Persistir en localStorage**:
+   - Utiliza localStorage para guardar la data de las tareas creadas y eliminadas.
+
 ---
 
 ## Tecnologías Utilizadas
@@ -52,6 +55,7 @@ Ideal para quienes desean una herramienta ligera para organizar sus actividades 
 El componente principal que maneja el estado de la aplicación:
 - Almacena las tareas en una lista.
 - Proporciona funciones para agregar, editar y eliminar tareas.
+- Utiliza localStorage para el manejo de la data-}.
 
 #### **TodoInput.jsx**
 Formulario para agregar nuevas tareas:
